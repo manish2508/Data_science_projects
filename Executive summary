@@ -1,0 +1,37 @@
+Executive Summary:
+
+
+The objective of the analysis was to predict customer churn using different machine learning models. After cleaning the data, three primary models were employed: Logistic Regression, Logistic Regression with Recursive Feature Elimination (RFE), and Random Forest. Additionally, both Logistic Regression with Principal Component Analysis (PCA) and Decision Tree with PCA were explored.
+
+Model Performance:
+Logistic Regression:
+
+Train Accuracy: ~79%
+Test Accuracy: ~80%
+Logistic Regression with PCA:
+
+Train Accuracy: ~91%
+Test Accuracy: ~92%
+Decision Tree with PCA:
+
+Train Accuracy: ~93%
+Test Accuracy: ~92%
+Best Model Selection:
+The Random Forest model achieved the highest accuracy, with a test accuracy of ~92%.
+Key Findings:
+The best parameters for the models resulted in an accuracy of 91%, which is only slightly lower than the accuracy of the original Random Forest model, pegged around 92%.
+Recommendations:
+The analysis suggests that Random Forest is the best model for predicting churn based on accuracy.
+
+The incoming calls data, including local same-operator mobile, other operator mobile, fixed lines, STD, or special calls, played a crucial role in understanding the possibility of churn.
+
+The operator should focus on incoming calls data and consider providing special offers to customers experiencing lower incoming call rates.
+
+Conclusion:
+The analysis concludes that Random Forest is the most effective model for predicting churn based on the accuracy metric. The insights derived from incoming calls data can be instrumental in devising targeted strategies to retain customers. Further investigation into the specifics of incoming call patterns may help in tailoring special offers that address the identified risk of churn.
+
+This report provides a comprehensive overview of the models used, their respective performances, and actionable recommendations based on the insights gained from the analysis.
+
+
+
+
